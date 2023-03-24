@@ -1,0 +1,343 @@
+@font-face {
+        font-family: MontserratRegular;
+        src: url(../src/assets/fonts/Montserrat/MontserratRegular.ttf);    
+}
+
+@font-face {
+    font-family: verdanabold;
+    src: url(../src/assets/fonts/verdana-font-family/verdana-bold.ttf);    
+}
+
+@font-face {
+    font-family: verdanaRegular;
+    src: url(../src/assets/fonts/verdana-font-family/verdana.ttf);    
+}
+
+
+body {
+    /*background-image: url('/assets/imgs/fondo.png');*/
+  //  background-image: url('/assets/img/fondo.png');
+    /* Full height */
+    background-color: #ffffff !important;
+    height: 250px;
+
+    /* Center and scale the image nicely */
+  //  background-position: center;
+    //background-repeat: no-repeat;
+   // background-size: cover;
+    transition: all 300ms;
+}
+
+
+/*estilos nav*/
+.navbar{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+}
+
+
+.barrita{
+width: 3px;
+height: 28px;
+background: #3F3F3F 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.margenesleft{
+    margin-left: 2rem;
+
+}
+
+.margenesriht{
+    margin-right:10rem;
+}
+ 
+.nav-link{
+    p{
+        font-family: MontserratRegular !important;
+        color: #3F3F3F;
+        opacity: 1;
+    }
+
+    .items{
+        font-family: verdanabold !important;
+        color:#00C83C;
+        transition: all 300ms;
+    }
+    .items:hover{
+        text-decoration: underline;
+        color:#00C83C;
+        cursor: pointer;
+    }
+}
+
+
+.logo{
+    color:#00C83C;
+    cursor: pointer;
+    margin-right: 10rem !important;
+}
+
+
+/*estilos fotter*/
+.foter{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    .redes{
+    margin-top: 10rem;
+    }
+}
+
+
+.lista{
+    color:#9c9e9f;
+    font-family: CalibriRegular;
+    text-decoration: none; 
+}
+
+.elementos {
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 6px #00000029;
+padding-left: 1%;
+padding-right: 1%;
+padding-top: 1%;
+padding-bottom: 10px;
+opacity: 0.9;
+color: #3F3F3F;
+p{
+    font-family: verdanaRegular;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    font-size: 13px;
+    text-decoration: underline;
+}
+}
+
+.list-foter{
+    list-style: none;
+    font-family: verdanaRegular;
+    font-size: 13px;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    strong{
+        color:#00C83C;
+    }
+
+    .item{
+    color: #3F3F3F;
+    font-family: verdanabold !important;
+    font-size: 13px;
+    }
+
+}
+
+/*implementacion de estilos home*/
+
+.barral{
+    width: 50px;
+    height: 0px;
+    background-color: #E2E2E2;    
+    transition: all 300ms;
+}
+/*estilos menu*/
+.barral2{
+    position: absolute;
+    width: 50px;
+    height: 688px;
+    background-color: #E2E2E2;    
+    transition: all 300ms;
+    cursor: pointer;
+    .item{
+        padding: 10px;
+        background-color: #00C83C;
+    }
+
+    .vista{
+     color: #FFFFFF;
+    opacity: 0;
+    position: absolute;
+    text-decoration: none;
+    transition: all 300ms;
+    font-family: MontserratRegular;
+    }
+   .vista2{
+    color: #3F3F3F;
+    opacity: 0;
+    position: absolute;
+    text-decoration: none;
+    transition: all 300ms;
+    font-family: MontserratRegular;
+}
+
+    ul{
+        list-style-type: none;
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        li{
+            background-color: #E2E2E2;
+            padding: 10px;
+        }
+    }
+}
+
+.barral2:hover{
+    width: 181px;
+    cursor: pointer;
+    .vista{
+   /* animation-name: barritas;
+    animation-duration: 1s;*/
+    opacity: 1;
+
+    }
+    .vista2{
+        /* animation-name: barritas;
+         animation-duration: 1s;*/
+         opacity: 1;
+     
+         }
+         
+    
+}
+
+
+/*
+@keyframes barritas {
+
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }*/
+.banner{
+
+padding-top: 2rem;
+background-image: url('/assets/img/fondo.jpg');
+background-color: #3F3F3F;
+width: 100%;
+height: 250px;
+color:#FFFFFF;
+
+h3{
+    font-family: verdanabold;
+}
+.margen{
+
+    margin-left: 5rem;
+}
+    .targeta{
+        padding-top: 1rem;
+        background-color:#FFFFFF;
+        width: 41%;
+        height: 200px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 0.3rem;
+        color: #3F3F3F;
+        background-image: url("/assets/img/Mask-Group19.svg");
+        background-repeat: no-repeat;
+        background-position: bottom right;
+
+    }
+    .texto{
+        color: #00C83C;
+    }
+
+    .texto:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    ul{
+        line-height: normal;
+        list-style-type: none;
+        font-weight: bold;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+
+    .valores{
+        color: #3F3F3F;
+        border-radius: 0.3rem;
+        font-weight: bold;
+        background-color: #00C83C;
+        width: 80%;
+        margin-left: 1rem;
+    }
+
+    .titulo{
+        font-weight:normal;
+        font-size: 13px;
+        color: #3F3F3F;
+    }
+
+}
+
+.fondo{
+    background-image: url('/assets/img/3329.png');
+}
+.contenido{
+
+    text-align: center;
+    margin-top: 8rem;
+    color: #3F3F3F;
+    h5{
+        font-family: verdanabold;
+    }
+    strong{
+     color: #fe9200;
+    }
+    .texto{
+        color: #3F3F3F;
+    }
+}
+
+
+/*carrusel*/
+
+.cards-wrapper{
+display: flex;
+}
+
+
+.card{
+margin:0 .5em !important;
+//width: calc(100% / 3)!important;
+width: 18rem;
+border: 0 !important;
+box-shadow: 0px 0px 6px #00000029;
+border-radius: 0.3rem;
+overflow: hidden;
+
+.card-text{
+    font-family: verdanaRegular;
+    background-color: #EDEDED ;
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.relleno{
+position: absolute;
+text-align: center !important;
+margin-left: 6rem;
+top: 9rem;
+}
+
+.numeros{
+
+    color: #00C83C;
+    margin-bottom: 1rem;
+}
+}
+
+.carousel-control-next-icon{
+background-color: #00c83c;
+border-radius: 1rem;
+
+}
+
+.carousel-control-prev-icon{
+    background-color: #00c83c;
+    border-radius: 1rem;
+}
+
